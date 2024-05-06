@@ -2,14 +2,27 @@ body{
     background-image: url(../projeto/img/oi.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0
 }
-
+h1{
+    color: azure;
+    text-align: center;
+    margin-top: 10px;
+}
+.a{
+    background-color: black;
+    
+}
 /* General styles for header elements */
 header {
     display: flex; /* Allow horizontal layout for header elements */
     justify-content: space-between; /* Distribute elements evenly */
     align-items: center; /* Vertically align content within header */
-    padding: 0.5rem 3.5rem; /* Add some padding for spacing */
+    padding: 0.1rem 2rem; /* Add some padding for spacing */
     background-color: #616668; /* Light background color */
     text-align: center;
   }
